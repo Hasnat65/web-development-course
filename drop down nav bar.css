@@ -1,0 +1,17 @@
+body{
+    background-color:rosybrown;
+}
+ ul{
+    text-align: center;
+  
+    color: white;
+    padding: 20px;
+    list-style:  none;
+    
+}
+ul li{
+    background-color: aqua;
+    border: 1px solid white;
+    margin: 5px;
+    
+}

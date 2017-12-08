@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Dropdown</title>
+    <style media="screen">
+      .dropdown{
+        position: absolute;
+        display: inline-block;
+        margin-left: 100px;
+
+
+      }
+      .dropdown-content{
+        position: absolute;
+        z-index: 1;
+        display: none;
+        background-color: blue;
+        padding: 5px;
+        border: 2px dotted red;
+        border-radius:  120px;
+        width:auto;
+             }
+        .dropdown:hover .dropdown-content{
+          display: block;
+
+        }
+    </style>
+  </head>
+  <body>
+    <h2 style="margin-left:100px">Hoverable Dropdown</h2>
+    <p>Move the mouse over the text below to open the dropdown content.</p>
+<div class="dropdown">
+  <span>Mouse Over me</span>
+<div class="dropdown-content">
+  <h3 style="color:yellow" >HEY! I Am Here</h3>
+
+</div>
+</div>
+  </body>
+</html>
